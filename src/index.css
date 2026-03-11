@@ -35,3 +35,12 @@
   background-color: #FF6A00;
   border-radius: 20px;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
